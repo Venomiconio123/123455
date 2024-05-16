@@ -6,7 +6,7 @@ document.getElementById("btn").addEventListener("click", function() {
         score++;
         document.getElementById("score").innerText = score; // Обновляем только значение числа
     } else {
-        alert("Вы достигли максимального количества нажатий.");
+         window.location.href = "Limit.html";
     }
 });
 
