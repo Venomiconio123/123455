@@ -1,5 +1,5 @@
 var score = 0;
-var maxClicks = 300; // Максимальное количество нажатий
+var maxClicks = 10; // Максимальное количество нажатий
 
 document.getElementById("btn").addEventListener("click", function() {
     if (score < maxClicks) {
@@ -18,7 +18,7 @@ document.querySelectorAll(".tab").forEach(function(tab) {
     });
 });
 // Пример изменения уровня энергии в JavaScript
-var energyLevel = 300; // Уровень энергии пользователя (от 0 до 100)
+var energyLevel = 10; // Уровень энергии пользователя (от 0 до 100)
 var energyBar = document.getElementById("energy-level");
 energyBar.style.width = energyLevel + "%"; // Устанавливаем ширину в процентах
 
