@@ -1,5 +1,6 @@
 var score = 0;
 var maxClicks = 100; // Максимальное количество нажатий
+var energyLevel = 100; // Уровень энергии пользователя (от 0 до 100)
 
 document.getElementById("btn").addEventListener("click", function() {
     if (score < maxClicks) {
