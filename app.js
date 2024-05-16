@@ -6,7 +6,15 @@ document.getElementById("btn").addEventListener("click", function() {
         score++;
         document.getElementById("score").innerText = score; // Обновляем только значение числа
     } else {
-         window.location.href = "limit.html";
+        window.location.href = "limit.html";
+    }
+});
+
+// Обработчик события для центральной кнопки
+document.getElementById("centralBtn").addEventListener("click", function() {
+    if (energyLevel > 0) {
+        energyLevel -= 10; // Уменьшаем уровень энергии на 10
+        document.getElementById("energy-level").style.width = energyLevel + "%"; // Обновляем отображение уровня энергии
     }
 });
 
@@ -17,8 +25,3 @@ document.querySelectorAll(".tab").forEach(function(tab) {
         window.location.href = target + ".html"; // Перенаправление на страницу с соответствующим именем
     });
 });
-// Пример изменения уровня энергии в JavaScript
-var energyLevel = 100; // Уровень энергии пользователя (от 0 до 100)
-var energyBar = document.getElementById("energy-level");
-energyBar.style.width = energyLevel + "%"; // Устанавливаем ширину в процентах
-
