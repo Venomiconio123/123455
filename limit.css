@@ -72,4 +72,5 @@ body {
 /* Стили для текста */
 .image-container p {
     margin-top: 10px; /* Отступ сверху от изображения */
+    color: #ffffff;
 }
