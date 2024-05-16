@@ -11,7 +11,7 @@ document.getElementById("btn").addEventListener("click", function() {
 });
 
 // Обработчик события для центральной кнопки
-document.getElementById("centralBtn").addEventListener("click", function() {
+document.getElementById("btn").addEventListener("click", function() {
     if (energyLevel > 0) {
         energyLevel -= 10; // Уменьшаем уровень энергии на 10
         document.getElementById("energy-level").style.width = energyLevel + "%"; // Обновляем отображение уровня энергии
