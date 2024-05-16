@@ -6,7 +6,7 @@ document.getElementById("btn").addEventListener("click", function() {
         score++;
         document.getElementById("score").innerText = score; // Обновляем только значение числа
     } else {
-         window.location.href = "Limit.html";
+         window.location.href = "limit.html";
     }
 });
 
