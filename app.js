@@ -13,7 +13,7 @@ document.getElementById("btn").addEventListener("click", function() {
 // Обработчик события для центральной кнопки
 document.getElementById("btn").addEventListener("click", function() {
     if (energyLevel > 0) {
-        energyLevel -= 10; // Уменьшаем уровень энергии на 10
+        energyLevel -= 1; // Уменьшаем уровень энергии на 1
         document.getElementById("energy-level").style.width = energyLevel + "%"; // Обновляем отображение уровня энергии
     }
 });
