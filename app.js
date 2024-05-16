@@ -1,5 +1,5 @@
 var score = 0;
-var maxClicks = 10; // Максимальное количество нажатий
+var maxClicks = 100; // Максимальное количество нажатий
 
 document.getElementById("btn").addEventListener("click", function() {
     if (score < maxClicks) {
