@@ -99,18 +99,6 @@ body {
     width: 78px;
     height: 58px;
 }
-/* Добавляем стили для шкалы энергии */
-.energy-bar {
-    position: fixed; /* Положение фиксированное */
-    bottom: 65px; /* Отступ снизу */
-    left: 50%; /* Положение по центру горизонтально */
-    transform: translateX(-50%); /* Центрируем относительно родительского элемента */
-    width: 315px; /* Задаем ширину */
-    height: 20px; /* Задаем высоту */
-    background-color: #000000; /* Цвет фона */
-    border-radius: 10px; /* Закругляем углы */
-    overflow: hidden; /* Прячем лишнее содержимое, если оно есть */
-}
 
 .energy-level {
     width: 100%; /* Ширина полосы энергии заполняется полностью */
@@ -119,18 +107,34 @@ body {
 }
 
 .energy-container {
-    text-align: center;
-    position: absolute;
-    top: 70px;
-    width: 100%;
+    position: relative; /* Позиционируем относительно .energy-bar */
+    text-align: center; /* Выравниваем текст по центру */
+    width: 100%; /* Ширина 100% для центрирования */
+}
+
+.energy-bar {
+    position: absolute; 
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .energy-text {
-    display: inline-block;
     margin: 0;
-    font-size: 56px;
-    color: white; /* Установите желаемый цвет текста */
+    font-size: 24px; /* Уменьшаем размер текста, чтобы он был визуально над полоской */
+    color: #fff; /* Устанавливаем цвет текста */
+    position: absolute; /* Позиционируем абсолютно относительно .energy-container */
+    top: -40px; /* Располагаем текст над полоской */
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Для автоматического размера текста */
 }
+
 
 
 
