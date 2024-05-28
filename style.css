@@ -107,7 +107,7 @@ body {
     transform: translateX(-50%); /* Центрируем относительно родительского элемента */
     width: 315px; /* Задаем ширину */
     height: 20px; /* Задаем высоту */
-    background-color: #ccc; /* Цвет фона */
+    background-color: #000000; /* Цвет фона */
     border-radius: 10px; /* Закругляем углы */
     overflow: hidden; /* Прячем лишнее содержимое, если оно есть */
 }
@@ -124,7 +124,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     font-size: 14px; /* Размер текста */
-    color: #000; /* Цвет текста */
+    color: #ffffff; /* Цвет текста */
 }
 
 
