@@ -118,7 +118,14 @@ body {
     background-color: #ffa500; /* Цвет полосы энергии */
 }
 
-
+.energy-text {
+    position: absolute; /* Позиционируем абсолютно, чтобы разместить над полоской */
+    top: -20px; /* Располагаем текст над полоской */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px; /* Размер текста */
+    color: #000; /* Цвет текста */
+}
 
 
 
