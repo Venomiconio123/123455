@@ -113,7 +113,7 @@ body {
     transform: translateX(-50%);
     width: 200px;
     height: 20px;
-    background-color: #ccc;
+    background-color: #000000;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -132,7 +132,7 @@ body {
 .energy-level {
     width: 100%; /* Ширина полосы энергии заполняется полностью */
     height: 100%; /* Высота полосы энергии */
-    background-color: #000000; /* Цвет полосы энергии */
+    background-color: #ffa500; /* Цвет полосы энергии */
 
 
 
