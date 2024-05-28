@@ -118,13 +118,18 @@ body {
     background-color: #ffa500; /* Цвет полосы энергии */
 }
 
+.energy-container {
+    text-align: center;
+    position: absolute;
+    top: 70px;
+    width: 100%;
+}
+
 .energy-text {
-    position: absolute; /* Позиционируем абсолютно, чтобы разместить над полоской */
-    top: -20px; /* Располагаем текст над полоской */
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 14px; /* Размер текста */
-    color: #ffffff; /* Цвет текста */
+    display: inline-block;
+    margin: 0;
+    font-size: 56px;
+    color: white; /* Установите желаемый цвет текста */
 }
 
 
