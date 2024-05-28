@@ -100,21 +100,24 @@ body {
     height: 58px;
 }
 /* Добавляем стили для шкалы энергии */
-.energy-bar {
-    bottom: 50px; /* Отступ снизу */
-    left: 50%; /* Положение слева на 50% от ширины родительского элемента */
+.enegry-bar {
+    position: fixed; /* Положение фиксированное */
+    bottom: 20px; /* Отступ снизу */
+    left: 50%; /* Положение по центру горизонтально */
+    transform: translateX(-50%); /* Центрируем относительно родительского элемента */
     width: 200px; /* Задаем ширину */
-    height: 20px;
-    background-color: #ccc;
-    border-radius: 10px;
-    overflow: hidden;
+    height: 20px; /* Задаем высоту */
+    background-color: #ccc; /* Цвет фона */
+    border-radius: 10px; /* Закругляем углы */
+    overflow: hidden; /* Прячем лишнее содержимое, если оно есть */
 }
 
 .energy-level {
-    width: 100%;
-    height: 100%;
-    background-color: #4CAF50;
+    width: 100%; /* Ширина полосы состояния здоровья заполняется полностью */
+    height: 100%; /* Высота полосы состояния здоровья */
+    background-color: #4CAF50; /* Цвет полосы состояния здоровья */
 }
+
 
 
 
