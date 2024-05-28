@@ -100,12 +100,6 @@ body {
     height: 58px;
 }
 
-.energy-level {
-    width: 100%; /* Ширина полосы энергии заполняется полностью */
-    height: 100%; /* Высота полосы энергии */
-    background-color: #ffa500; /* Цвет полосы энергии */
-}
-
 .energy-container {
     position: relative; /* Позиционируем относительно .energy-bar */
     text-align: center; /* Выравниваем текст по центру */
