@@ -103,7 +103,6 @@ body {
 .energy-bar {
     bottom: 50px; /* Отступ снизу */
     left: 50%; /* Положение слева на 50% от ширины родительского элемента */
-    transform: translateX(-50%); /* Центрируем по горизонтали */
     width: 200px; /* Задаем ширину */
     height: 20px;
     background-color: #ccc;
