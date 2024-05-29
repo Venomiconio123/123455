@@ -118,4 +118,13 @@ body {
     transition: width 0.3s ease; /* Плавное изменение ширины */
 }
 
+.health-label {
+    position: absolute;
+    bottom: 73px; /* Вы можете регулировать положение по вашему усмотрению */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px; /* Размер шрифта по вашему выбору */
+    color: white; /* Цвет текста */
+}
+
 
