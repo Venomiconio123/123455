@@ -99,3 +99,18 @@ body {
     width: 78px;
     height: 58px;
 }
+
+.energy-bar {
+    width: 100%;
+    height: 20px; /* Высота шкалы энергии */
+    background-color: #ccc; /* Цвет фона шкалы */
+    border-radius: 10px; /* Радиус скругления углов */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+.energy-level {
+    height: 100%; /* Уровень энергии будет меняться по высоте шкалы */
+    background-color: #4caf50; /* Цвет шкалы энергии */
+    border-radius: 10px; /* Радиус скругления углов */
+    transition: width 0.3s ease; /* Плавное изменение ширины */
+}
