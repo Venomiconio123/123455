@@ -100,12 +100,17 @@ body {
     height: 58px;
 }
 
+.container {
+    position: relative; /* Для позиционирования элементов внутри */
+}
+
 .energy-bar {
-    width: 100%;
+    position: absolute; /* Позиционируем абсолютно внутри контейнера */
+    bottom: 10px; /* Располагаем шкалу относительно нижнего края контейнера */
+    width: 100%; /* Занимает всю ширину контейнера */
     height: 20px; /* Высота шкалы энергии */
     background-color: #ccc; /* Цвет фона шкалы */
     border-radius: 10px; /* Радиус скругления углов */
-    margin-bottom: 20px; /* Отступ снизу */
 }
 
 .energy-level {
@@ -114,3 +119,4 @@ body {
     border-radius: 10px; /* Радиус скругления углов */
     transition: width 0.3s ease; /* Плавное изменение ширины */
 }
+
