@@ -107,7 +107,7 @@ body {
 }
 
 .energy-bar {
-    position: bottom; 
+    position: relative; 
     bottom: 65px;
     left: 50%;
     transform: translateX(-50%);
