@@ -104,7 +104,6 @@ body {
     position: bottom;
     top: 10px; /* Располагаем шкалу над кнопками */
     left: 50%; /* Выравниваем по центру */
-    transform: translateX(-50%); /* Сдвигаем влево на половину ширины */
     width: 315px; /* Ширина шкалы */
     height: 20px; /* Высота шкалы */
     background-color: black; /* Цвет фона шкалы */
