@@ -99,3 +99,21 @@ body {
     width: 78px;
     height: 58px;
 }
+
+.energy-bar {
+    position: absolute;
+    top: 20px; /* Располагаем шкалу над кнопками */
+    left: 50%; /* Выравниваем по центру */
+    transform: translateX(-50%); /* Сдвигаем влево на половину ширины */
+    width: 80%; /* Ширина шкалы */
+    height: 20px; /* Высота шкалы */
+    background-color: black; /* Цвет фона шкалы */
+    border-radius: 10px; /* Радиус скругления углов */
+}
+
+.energy-level {
+    height: 100%;
+    background-color: orange; /* Цвет шкалы энергии */
+    border-radius: 10px; /* Радиус скругления углов */
+    transition: width 0.3s ease; /* Плавное изменение ширины */
+}
