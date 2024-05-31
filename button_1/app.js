@@ -8,7 +8,7 @@ document.getElementById("btn").addEventListener("click", function() {
         score++;
         document.getElementById("score").innerText = score; // Обновляем только значение числа
     } else {
-        window.location.href = "limit.html";
+        window.location.href = "limit/limit.html";
     }
 
     // Уменьшаем уровень энергии
