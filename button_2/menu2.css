@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-size: 18px;
     color: var(--tg-theme-text-col);
-    background: url('/button_1/background.png') center center no-repeat;
+    background: url('/assets/background.png') center center no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;

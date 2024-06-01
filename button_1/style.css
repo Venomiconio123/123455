@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-size: 18px;
     color: var(--tg-theme-text-col);
-    background: url('background.png') center center no-repeat;
+    background: url('/assets/background.png') center center no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -80,19 +80,19 @@ body {
 
 /* Для каждой кнопки укажите своё изображение */
 .tab[data-target="index"] {
-    background-image: url('button1_image.png');
+    background-image: url('/assets/button1_image.png');
 }
 
 .tab[data-target="menu2"] {
-    background-image: url('button2_image.png');
+    background-image: url('/assets/button2_image.png');
 }
 
 .tab[data-target="menu3"] {
-    background-image: url('button3_image.png');
+    background-image: url('/assets/button3_image.png');
 }
 
 .tab[data-target="menu4"] {
-    background-image: url('button4_image.png');
+    background-image: url('/assets/button4_image.png');
 }
 
 .tab:active {
