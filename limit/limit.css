@@ -36,19 +36,19 @@ body {
 
 /* Для каждой кнопки укажите своё изображение */
 .tab[data-target="index"] {
-    background-image: url('button1.png');
+    background-image: url('/assets/button1_image.png');
 }
 
 .tab[data-target="menu2"] {
-    background-image: url('button2.png');
+    background-image: url('/assets/button2_image.png');
 }
 
 .tab[data-target="menu3"] {
-    background-image: url('button3.png');
+    background-image: url('/assets/button3_image.png');
 }
 
 .tab[data-target="menu4"] {
-    background-image: url('button4.png');
+    background-image: url('/assets/button4_image.png');
 }
 
 .tab:active {
