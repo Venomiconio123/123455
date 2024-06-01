@@ -28,7 +28,7 @@ body {
 .btn {
     padding: 0;
     border: none;
-    background: url('background.png') center center no-repeat;
+    background: url('/assets/blast.png') center center no-repeat;
     background-size: cover;
     width: 200px;
     height: 200px;
